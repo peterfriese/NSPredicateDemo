@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88F6483B132FC2B30099136D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F6483A132FC2B30099136D /* Foundation.framework */; };
+		88F6483E132FC2B30099136D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F6483D132FC2B30099136D /* main.m */; };
+		88F64849132FC2FB0099136D /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F64848132FC2FA0099136D /* Book.m */; };
+		88F6484C132FC3B50099136D /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F6484B132FC3B40099136D /* Author.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88F64834132FC2B30099136D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		88F64836132FC2B30099136D /* NSPredicateDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSPredicateDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F6483A132FC2B30099136D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88F6483D132FC2B30099136D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88F64840132FC2B30099136D /* NSPredicateDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSPredicateDemo-Prefix.pch"; sourceTree = "<group>"; };
+		88F64847132FC2FA0099136D /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		88F64848132FC2FA0099136D /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		88F6484A132FC3B40099136D /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		88F6484B132FC3B40099136D /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88F64833132FC2B30099136D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F6483B132FC2B30099136D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88F6482B132FC2B30099136D = {
+			isa = PBXGroup;
+			children = (
+				88F6483C132FC2B30099136D /* NSPredicateDemo */,
+				88F64839132FC2B30099136D /* Frameworks */,
+				88F64837132FC2B30099136D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88F64837132FC2B30099136D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88F64836132FC2B30099136D /* NSPredicateDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88F64839132FC2B30099136D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88F6483A132FC2B30099136D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88F6483C132FC2B30099136D /* NSPredicateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				88F6483D132FC2B30099136D /* main.m */,
+				88F6483F132FC2B30099136D /* Supporting Files */,
+				88F64847132FC2FA0099136D /* Book.h */,
+				88F64848132FC2FA0099136D /* Book.m */,
+				88F6484A132FC3B40099136D /* Author.h */,
+				88F6484B132FC3B40099136D /* Author.m */,
+			);
+			path = NSPredicateDemo;
+			sourceTree = "<group>";
+		};
+		88F6483F132FC2B30099136D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88F64840132FC2B30099136D /* NSPredicateDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88F64835132FC2B30099136D /* NSPredicateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F64844132FC2B30099136D /* Build configuration list for PBXNativeTarget "NSPredicateDemo" */;
+			buildPhases = (
+				88F64832132FC2B30099136D /* Sources */,
+				88F64833132FC2B30099136D /* Frameworks */,
+				88F64834132FC2B30099136D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSPredicateDemo;
+			productName = NSPredicateDemo;
+			productReference = 88F64836132FC2B30099136D /* NSPredicateDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88F6482D132FC2B30099136D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = itemis;
+			};
+			buildConfigurationList = 88F64830132FC2B30099136D /* Build configuration list for PBXProject "NSPredicateDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88F6482B132FC2B30099136D;
+			productRefGroup = 88F64837132FC2B30099136D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88F64835132FC2B30099136D /* NSPredicateDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88F64832132FC2B30099136D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F6483E132FC2B30099136D /* main.m in Sources */,
+				88F64849132FC2FB0099136D /* Book.m in Sources */,
+				88F6484C132FC3B50099136D /* Author.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		88F64842132FC2B30099136D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		88F64843132FC2B30099136D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		88F64845132FC2B30099136D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSPredicateDemo/NSPredicateDemo-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88F64846132FC2B30099136D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSPredicateDemo/NSPredicateDemo-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88F64830132FC2B30099136D /* Build configuration list for PBXProject "NSPredicateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F64842132FC2B30099136D /* Debug */,
+				88F64843132FC2B30099136D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F64844132FC2B30099136D /* Build configuration list for PBXNativeTarget "NSPredicateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F64845132FC2B30099136D /* Debug */,
+				88F64846132FC2B30099136D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88F6482D132FC2B30099136D /* Project object */;
+}
